@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Vydia/react-native-background-upload.git"
+    "url": "https://github.com/ProxyPicsInc/react-native-background-upload.git"
   },
   "keywords": [
     "NSURLSession",
@@ -28,9 +28,9 @@
   "author": "Steve Potter",
   "license": "BSD-3-Clause",
   "bugs": {
-    "url": "https://github.com/Vydia/react-native-background-upload/issues"
+    "url": "https://github.com/ProxyPicsInc/react-native-background-upload/issues"
   },
-  "homepage": "https://github.com/Vydia/react-native-background-upload#readme",
+  "homepage": "https://github.com/ProxyPicsInc/react-native-background-upload#readme",
   "devDependencies": {
     "@react-native-community/eslint-config": "^0.0.7",
     "@semantic-release/commit-analyzer": "^6.3.3",
