@@ -316,16 +316,13 @@ didCompleteWithError:(NSError *)error {
     } else {
         [data setObject:[NSNull null] forKey:@"responseBody"];
     }
-    
+
     if (response.allHeaderFields) {
         NSDictionary *dictionary = [response allHeaderFields];
-        NSLog([dictionary description]);
         [data setObject:dictionary forKey:@"responseHeaders"];
     } else {
         [data setObject:[NSNull null] forKey:@"responseHeaders"];
     }
-    
-    
 
     if (error == nil)
     {
